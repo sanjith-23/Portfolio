@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="1.ico">
+
+</head>
+<body>
+    <div id="header">
+            <div class="box">
+            <nav >
+                <h1>Sanjith S</h1>
+                <i id="a" class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <ul class="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">My Programs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id="head"class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+            </nav></div>
+            <div class="title">
+            <div class="header-text">
+                <h1>Hi,I'm <span>Sanjith Gunal</span><br>From Erode</h1>
+                <p>Fullstack developer</p>
+                <button id="resume" ><a href="Sanjith_Resume .pdf" download>RESUME</a></button>
+                <button id="github"><a href="https://github.com/sanjith-23">GitHub</a></button>
+                <div id="info">This Resume format is PDF</div>
+                <div id="info2">This is My Source Code in GitHub</div>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="title">
+            <div class="row">
+                <div class="col1">
+                    <img src="sanjith.png" >
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> My name is Sanjith Gunal, and I'm from Sathyamangalam, DGPudur.
+                        I am currently pursuing my Master of Computer Applications (MCA) degree at Gobi Arts and Sciences College.
+                        Prior to this, I completed my Bachelor's in Computer Science at the same institution, showcasing my dedication to the field.
+                        My ultimate career goal is to become a proficient full-stack developer, combining my skills in both front-end and back-end development to create dynamic and innovative web applications.</p>
+                        <div class="tab-title">
+                            <a id="skill" onclick="openmenu1()">Skills</a>
+                            <a href="#certificates" id="certificate">Certificates</a> 
+                        </div>
+                    <div class="skill1">
+                            <i id="head"class="fa-solid fa-xmark" onclick="closemenu1()"></i>
+                            <ul>
+                                <li>HTML,css</li>
+                                <li>JAVA SCRIPT</li>
+                                <li>PYTHON</li>
+                                <li>MYSQL</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="certificates">
+        <div class="c-title">
+            <h1>My Certificates</h1>
+                <div class="c-list">
+                    <div class="cf">
+                        <img src="certificate1.jpg">
+                    </div>
+                    <div class="cf">
+                        <img src="certificate2.jpg">
+                    </div>
+                    <div class="cf">
+                        <img src="certificate3.jpg">
+                    </div>
+                </div>
+        </div>
+        <div class="seemore">
+            <a href="#programs">
+                <i class="fa-solid fa-chevron-down"></i></a>
+        </div>
+    </div>
+    <div id="programs">
+        <div class="container">
+            <h1>My Programs</h1>
+            <div class="program_list">
+        <div class="imgmain">
+             <img src="sps.png" width="400px" height="400px">
+             <div class="layer">
+                <h3>STONE PAPER SCISSER</h3>
+                <p>This Program written by HTML,CSS and JAVASCRIPT</p>
+                <a href="StonePaperScissor/index.html">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+        </div>
+        <div class="imgmain">
+            <img src="weather.png" width="400px" height="400px">
+            <div class="layer">
+                <h3>WEATHER</h3>
+                <p>This Program written by HTML,CSS and JAVASCRIPT</p>
+                <a href="weather/index.html">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+        </div>
+        <div class="imgmain">
+        <img src="dc.png" width="400px" height="400px">
+        <div class="layer">
+            <h3>DIGITAL CLOCK</h3>
+            <p>This Program written by HTML,CSS and JAVASCRIPT</p>
+            <a href="Digital Clock/index1.html">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+         </div>
+        </div>
+    </div>
+</div>
+<div class="seemore">
+    <a href="#contact">
+        <i class="fa-solid fa-chevron-down"></i></a>
+</div>
+</div>
+<div id="contact">
+    <h1>Contact Us</h1>
+    <div class="contectus">
+        <ul>
+            <li><h2><i class="fa-solid fa-phone"></i> Phone no: 9360330837</h2></li>
+            <li><h2><i class="fa-solid fa-envelope"></i> Email Id: sanjithgunal2302@gmail.com</h2></li>
+            <li><h2><i class="fa-brands fa-github"></i> GitHub  : https://github.com/sanjith-23 </h2></li>
+            <li><h2><i class="fa-brands fa-facebook"></i> Facebook : Sanjith</h2></li>
+            <li><h2><i class="fa-brands fa-square-instagram"></i> Instagram : sanjith__23</h2></li>
+                <a href="#header">
+                    <i id="up" class="fa-solid fa-chevron-up"></i></a>
+        </ul>
+       
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
